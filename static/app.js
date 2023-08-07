@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
         promptForm.addEventListener('submit', e => {
             e.preventDefault();
 
-            const prompt = promptElm.value.trim();
+            const prompt = promptElm.value;
 
             const xhr = new XMLHttpRequest();
             xhr.open('POST', '/api/chat');
