@@ -2,6 +2,8 @@
 
 Demo chat running on Llama2
 
+![](https://cldup.com/oswrF2qgpT.png)
+
 ### Prerequisites
 
 -   **Node.js** and **npm** (download [here](https://nodejs.org/en/download))
