@@ -28,6 +28,8 @@ $ npm start
 
 Open browser at [http://127.0.0.1:3000](http://127.0.0.1:3000) and start chatting!
 
+> **NB!** as this app is using CPU by default, then it takes a long time (~30s) to get first response tokens, so be patient when waiting for the response.
+
 ## License
 
 **ISC**
