@@ -33,14 +33,15 @@ document.addEventListener('DOMContentLoaded', () => {
     function writeToConsole(str) {
         textValue += str;
 
-        textValue = textValue
+        let sourceTxt = textValue
             .replace(/\r?\n/g, '\x04')
             .replace(/\s*<s>.*\[\/INST\]\s*/i, '')
             .replace(/\[end of text\]/i, ' ')
+            .replace(/ +/g, ' ')
             .trim()
             .replace(/\x04/g, '\n');
 
-        outputElm.innerHTML = marked.parse(textValue);
+        outputElm.innerHTML = marked.parse(sourceTxt);
 
         outputElm.scrollIntoView();
     }
