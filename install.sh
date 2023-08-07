@@ -1,5 +1,19 @@
 #!/bin/bash
 
+if ! command -v node &> /dev/null
+then
+    echo "Can't find node.js"
+    exit 1
+fi
+
+if ! command -v npm &> /dev/null
+then
+    echo "Can't find npm"
+    exit 1
+fi
+
+npm install --production
+
 unameOut="$(uname -s)"
 case "${unameOut}" in
     Linux*)     machine=Linux;;

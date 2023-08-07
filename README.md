@@ -2,6 +2,12 @@
 
 Demo chat running on Llama2
 
+### Prerequisites
+
+-   **Node.js** and **npm** (download [here](https://nodejs.org/en/download))
+-   C compiler
+-   Xcode tools on Mac
+
 ### 1. Setup
 
 Run the installer (tested on Linux and MacOS)
@@ -10,12 +16,11 @@ Run the installer (tested on Linux and MacOS)
 $ ./install.sh
 ```
 
-> The install script compiles the llama2.cpp application and downloads the Llama2 13B chat model, so it is going to take some time and make sure your system has a compiler available
+> The install script compiles the llama2.cpp application and downloads the Llama2 13B chat model, so it is going to take some time
 
 ### 2. Run the app
 
 ```
-$ npm install --production
 $ npm start
 ```
 
