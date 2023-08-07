@@ -42,4 +42,4 @@ wget "https://huggingface.co/TheBloke/Llama-2-13B-chat-GGML/resolve/main/${MODEL
     --n-predict -1 \
     --prompt "[INST] Tell me a joke [/INST]"
 
-echo "If you see a joke (even a bad one) then it means the process completed successfully
+echo "If you see a joke (even a bad one) then it means the process completed successfully"
