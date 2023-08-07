@@ -15,6 +15,7 @@ $ ./install.sh
 ### 2. Run the app
 
 ```
+$ npm install --production
 $ npm start
 ```
 
