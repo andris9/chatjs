@@ -1,0 +1,7 @@
+httpPort = 3000
+useGPU = true
+llamaPath = 'llama.cpp'
+llamaModel = 'llama-2-13b-chat.ggmlv3.q4_0.bin'
+modelsPath = '.'
+
+serverName = "localhost"

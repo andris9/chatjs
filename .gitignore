@@ -1,3 +1,4 @@
 llama*
 node_modules
 .DS_Store
+config/production.toml

@@ -1,6 +1,7 @@
 'use strict';
 
 /* globals document, XMLHttpRequest, marked */
+/* eslint no-control-regex: 0 */
 
 document.addEventListener('DOMContentLoaded', () => {
     const promptForm = document.getElementById('prompt-form');
@@ -41,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         outputElm.innerHTML = marked.parse(textValue);
 
-        elm.scrollIntoView();
+        outputElm.scrollIntoView();
     }
 
     for (let f of document.querySelectorAll('form.pending-form')) {
