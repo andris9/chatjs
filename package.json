@@ -1,0 +1,24 @@
+{
+    "name": "chatjs",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": ".prettierrc.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint-config-nodemailer": "1.2.0",
+        "eslint-config-prettier": "9.0.0"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "4.18.2",
+        "express-handlebars": "7.1.1",
+        "marked": "^7.0.0"
+    }
+}
